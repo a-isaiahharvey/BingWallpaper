@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40264A7C2AFBE8F400B3773A /* BingWallpaperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40264A7B2AFBE8F400B3773A /* BingWallpaperApp.swift */; };
+		40264A7E2AFBE8F400B3773A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40264A7D2AFBE8F400B3773A /* ContentView.swift */; };
+		40264A802AFBE8F600B3773A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40264A7F2AFBE8F600B3773A /* Assets.xcassets */; };
+		40264A832AFBE8F600B3773A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40264A822AFBE8F600B3773A /* Preview Assets.xcassets */; };
+		40264A8E2AFBE8F600B3773A /* BingWallpaperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40264A8D2AFBE8F600B3773A /* BingWallpaperTests.swift */; };
+		40264A982AFBE8F600B3773A /* BingWallpaperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40264A972AFBE8F600B3773A /* BingWallpaperUITests.swift */; };
+		40264A9A2AFBE8F600B3773A /* BingWallpaperUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40264A992AFBE8F600B3773A /* BingWallpaperUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40264A8A2AFBE8F600B3773A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40264A702AFBE8F400B3773A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40264A772AFBE8F400B3773A;
+			remoteInfo = BingWallpaper;
+		};
+		40264A942AFBE8F600B3773A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40264A702AFBE8F400B3773A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40264A772AFBE8F400B3773A;
+			remoteInfo = BingWallpaper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40264A782AFBE8F400B3773A /* BingWallpaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BingWallpaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40264A7B2AFBE8F400B3773A /* BingWallpaperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingWallpaperApp.swift; sourceTree = "<group>"; };
+		40264A7D2AFBE8F400B3773A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		40264A7F2AFBE8F600B3773A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40264A822AFBE8F600B3773A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40264A842AFBE8F600B3773A /* BingWallpaper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BingWallpaper.entitlements; sourceTree = "<group>"; };
+		40264A892AFBE8F600B3773A /* BingWallpaperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingWallpaperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40264A8D2AFBE8F600B3773A /* BingWallpaperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingWallpaperTests.swift; sourceTree = "<group>"; };
+		40264A932AFBE8F600B3773A /* BingWallpaperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BingWallpaperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40264A972AFBE8F600B3773A /* BingWallpaperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingWallpaperUITests.swift; sourceTree = "<group>"; };
+		40264A992AFBE8F600B3773A /* BingWallpaperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingWallpaperUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40264A752AFBE8F400B3773A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40264A862AFBE8F600B3773A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40264A902AFBE8F600B3773A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40264A6F2AFBE8F400B3773A = {
+			isa = PBXGroup;
+			children = (
+				40264A7A2AFBE8F400B3773A /* BingWallpaper */,
+				40264A8C2AFBE8F600B3773A /* BingWallpaperTests */,
+				40264A962AFBE8F600B3773A /* BingWallpaperUITests */,
+				40264A792AFBE8F400B3773A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40264A792AFBE8F400B3773A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40264A782AFBE8F400B3773A /* BingWallpaper.app */,
+				40264A892AFBE8F600B3773A /* BingWallpaperTests.xctest */,
+				40264A932AFBE8F600B3773A /* BingWallpaperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40264A7A2AFBE8F400B3773A /* BingWallpaper */ = {
+			isa = PBXGroup;
+			children = (
+				40264A7B2AFBE8F400B3773A /* BingWallpaperApp.swift */,
+				40264A7D2AFBE8F400B3773A /* ContentView.swift */,
+				40264A7F2AFBE8F600B3773A /* Assets.xcassets */,
+				40264A842AFBE8F600B3773A /* BingWallpaper.entitlements */,
+				40264A812AFBE8F600B3773A /* Preview Content */,
+			);
+			path = BingWallpaper;
+			sourceTree = "<group>";
+		};
+		40264A812AFBE8F600B3773A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				40264A822AFBE8F600B3773A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		40264A8C2AFBE8F600B3773A /* BingWallpaperTests */ = {
+			isa = PBXGroup;
+			children = (
+				40264A8D2AFBE8F600B3773A /* BingWallpaperTests.swift */,
+			);
+			path = BingWallpaperTests;
+			sourceTree = "<group>";
+		};
+		40264A962AFBE8F600B3773A /* BingWallpaperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40264A972AFBE8F600B3773A /* BingWallpaperUITests.swift */,
+				40264A992AFBE8F600B3773A /* BingWallpaperUITestsLaunchTests.swift */,
+			);
+			path = BingWallpaperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40264A772AFBE8F400B3773A /* BingWallpaper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40264A9D2AFBE8F600B3773A /* Build configuration list for PBXNativeTarget "BingWallpaper" */;
+			buildPhases = (
+				40264A742AFBE8F400B3773A /* Sources */,
+				40264A752AFBE8F400B3773A /* Frameworks */,
+				40264A762AFBE8F400B3773A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BingWallpaper;
+			productName = BingWallpaper;
+			productReference = 40264A782AFBE8F400B3773A /* BingWallpaper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40264A882AFBE8F600B3773A /* BingWallpaperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40264AA02AFBE8F600B3773A /* Build configuration list for PBXNativeTarget "BingWallpaperTests" */;
+			buildPhases = (
+				40264A852AFBE8F600B3773A /* Sources */,
+				40264A862AFBE8F600B3773A /* Frameworks */,
+				40264A872AFBE8F600B3773A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40264A8B2AFBE8F600B3773A /* PBXTargetDependency */,
+			);
+			name = BingWallpaperTests;
+			productName = BingWallpaperTests;
+			productReference = 40264A892AFBE8F600B3773A /* BingWallpaperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40264A922AFBE8F600B3773A /* BingWallpaperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40264AA32AFBE8F600B3773A /* Build configuration list for PBXNativeTarget "BingWallpaperUITests" */;
+			buildPhases = (
+				40264A8F2AFBE8F600B3773A /* Sources */,
+				40264A902AFBE8F600B3773A /* Frameworks */,
+				40264A912AFBE8F600B3773A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40264A952AFBE8F600B3773A /* PBXTargetDependency */,
+			);
+			name = BingWallpaperUITests;
+			productName = BingWallpaperUITests;
+			productReference = 40264A932AFBE8F600B3773A /* BingWallpaperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40264A702AFBE8F400B3773A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					40264A772AFBE8F400B3773A = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					40264A882AFBE8F600B3773A = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 40264A772AFBE8F400B3773A;
+					};
+					40264A922AFBE8F600B3773A = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 40264A772AFBE8F400B3773A;
+					};
+				};
+			};
+			buildConfigurationList = 40264A732AFBE8F400B3773A /* Build configuration list for PBXProject "BingWallpaper" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40264A6F2AFBE8F400B3773A;
+			productRefGroup = 40264A792AFBE8F400B3773A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40264A772AFBE8F400B3773A /* BingWallpaper */,
+				40264A882AFBE8F600B3773A /* BingWallpaperTests */,
+				40264A922AFBE8F600B3773A /* BingWallpaperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40264A762AFBE8F400B3773A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40264A832AFBE8F600B3773A /* Preview Assets.xcassets in Resources */,
+				40264A802AFBE8F600B3773A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40264A872AFBE8F600B3773A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40264A912AFBE8F600B3773A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40264A742AFBE8F400B3773A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40264A7E2AFBE8F400B3773A /* ContentView.swift in Sources */,
+				40264A7C2AFBE8F400B3773A /* BingWallpaperApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40264A852AFBE8F600B3773A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40264A8E2AFBE8F600B3773A /* BingWallpaperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40264A8F2AFBE8F600B3773A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40264A982AFBE8F600B3773A /* BingWallpaperUITests.swift in Sources */,
+				40264A9A2AFBE8F600B3773A /* BingWallpaperUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40264A8B2AFBE8F600B3773A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40264A772AFBE8F400B3773A /* BingWallpaper */;
+			targetProxy = 40264A8A2AFBE8F600B3773A /* PBXContainerItemProxy */;
+		};
+		40264A952AFBE8F600B3773A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40264A772AFBE8F400B3773A /* BingWallpaper */;
+			targetProxy = 40264A942AFBE8F600B3773A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40264A9B2AFBE8F600B3773A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40264A9C2AFBE8F600B3773A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		40264A9E2AFBE8F600B3773A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BingWallpaper/BingWallpaper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BingWallpaper/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.a-isaiahharvey.BingWallpaper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		40264A9F2AFBE8F600B3773A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BingWallpaper/BingWallpaper.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BingWallpaper/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.a-isaiahharvey.BingWallpaper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		40264AA12AFBE8F600B3773A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.a-isaiahharvey.BingWallpaperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BingWallpaper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BingWallpaper";
+			};
+			name = Debug;
+		};
+		40264AA22AFBE8F600B3773A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.a-isaiahharvey.BingWallpaperTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BingWallpaper.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BingWallpaper";
+			};
+			name = Release;
+		};
+		40264AA42AFBE8F600B3773A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.a-isaiahharvey.BingWallpaperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BingWallpaper;
+			};
+			name = Debug;
+		};
+		40264AA52AFBE8F600B3773A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.a-isaiahharvey.BingWallpaperUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BingWallpaper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40264A732AFBE8F400B3773A /* Build configuration list for PBXProject "BingWallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40264A9B2AFBE8F600B3773A /* Debug */,
+				40264A9C2AFBE8F600B3773A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40264A9D2AFBE8F600B3773A /* Build configuration list for PBXNativeTarget "BingWallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40264A9E2AFBE8F600B3773A /* Debug */,
+				40264A9F2AFBE8F600B3773A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40264AA02AFBE8F600B3773A /* Build configuration list for PBXNativeTarget "BingWallpaperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40264AA12AFBE8F600B3773A /* Debug */,
+				40264AA22AFBE8F600B3773A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40264AA32AFBE8F600B3773A /* Build configuration list for PBXNativeTarget "BingWallpaperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40264AA42AFBE8F600B3773A /* Debug */,
+				40264AA52AFBE8F600B3773A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40264A702AFBE8F400B3773A /* Project object */;
+}
