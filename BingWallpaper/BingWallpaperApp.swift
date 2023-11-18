@@ -10,8 +10,14 @@ import SwiftUI
 @main
 struct BingWallpaperApp: App {
     var body: some Scene {
-        WindowGroup {
+        MenuBarExtra {
             ContentView()
+        } label: {
+            Image("MenubarIcon")
+        }.menuBarExtraStyle(.window)
+        
+        WindowGroup {
+            
         }
     }
 }
